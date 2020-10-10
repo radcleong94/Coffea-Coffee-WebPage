@@ -1,0 +1,105 @@
+/* change navbar background */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.card {
+  margin: 0.9rem 0;
+}
+
+.container-fluid a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.container-fluid h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+div .logo {
+  font-size: 2.5rem;
+}
+
+div .footer-link {
+  margin: 0 12px;
+  font-size: 0.8rem;
+}
+
+div .footer-p {
+  font-size: 0.8rem;
+}
+
+footer {
+  padding: 15px 0;
+}
+
+div .text-center1 {
+  text-align: center;
+}
+
+@media (min-width: 375px) {
+  div .footer-p {
+    font-size: 0.8rem;
+  }
+  div .footer-link {
+    font-size: 0.9rem;
+  }
+}
+
+/*---------search bar------*/
+#toggle-search {
+  
+   float:right;
+}
+#toggle-search:hover {
+  color: rgba(#efefef, 1);
+}
+#searchBar {
+  background-color: #2f2f2f;
+  border: none;
+  color: white;
+  outline:none;
+  font-size: 12pt;
+  font-weight: 100;
+  margin-right: 20px;
+  padding: .25em .75em;
+  float: right;
+  width:200px;;
+  max-width: 300px;
+  text-align: right;
+  -webkit-border-radius: 28px;
+     -moz-border-radius: 28px;
+          border-radius: 28px;
+   
+}
+
+@media only screen and (max-width:766px){
+
+  #searchBar{
+    width:500px;
+    text-align: left;
+    margin-right:10px;
+  }
+
+  #toggle-search{
+    font-size:1.6rem;
+  }
+
+  
+  
+}
+
